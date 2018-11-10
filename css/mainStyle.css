@@ -1,0 +1,68 @@
+body{
+    background: url(body_clothes.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider_images{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+}
+.slider_background_color{
+    background-color: #CFF7FF;
+}
+
+
+.bg{
+    background-image: url("body_clothes.jpg");
+    background-repeat: no-repeat;
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+}
+
+
+#about_us{
+    height: 500px;
+    background: radial-gradient(#00F2FD, white);
+}
+
+#about_text{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    /* vertical-align: middle; 
+    line-height: 500px;*/
+}
+
+#texto_hidden{
+    display: none;
+    
+    width: 650px;
+    margin: 0 32%; 
+    border: solid;
+    padding: 21px;    
+}
+
+#about_us:hover #texto_hidden{
+    color: rgb(0, 0, 0);
+    display: block
+}
+
+
+.footer{
+    background: linear-gradient(315deg,#0b2d51,#0F355E 20%,#214d7c 40%,#2e6099 60%,#091524 80%,#080f1a);
+    color: white
+}
+
+.icon_footer{
+    margin-left: 135px;
+}
+
+
+
